@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-obsidian: #050608;
+    --bg-carbon: #0B0E14;
+    --text-alabaster: #F5F7FA;
+    --text-silver: #949BA6;
+    --text-slate: #565E6B;
+    --bmw-blue: #1C69D4;
+  }
+
+  html {
+    background-color: #050608;
+    color: #F5F7FA;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #050608;
+    color: #F5F7FA;
+    overflow-x: hidden;
+    selection-background-color: #1C69D4;
+    selection-color: #F5F7FA;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', 'Inter', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}

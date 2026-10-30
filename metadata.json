@@ -1,0 +1,6 @@
+{
+  "name": "BMW M4 Coupé — 3D Studio Showroom",
+  "description": "Immersive 3D interactive showroom and configurator for the BMW M4 Coupé (G82) featuring studio PBR lighting, real-time paint and wheel customization, camera choreography, and verified M TwinPower Turbo specifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
